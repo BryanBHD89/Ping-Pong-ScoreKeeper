@@ -1,0 +1,103 @@
+body {
+    box-sizing: border-box;
+    margin: auto auto;
+    width: 50%;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 3rem;
+
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    margin-bottom: 0px;
+}
+
+p {
+    margin-left: 1rem;
+    margin-top: 0.2rem;
+
+}
+
+#container1 {
+    margin-bottom: 0.5rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: #e5e5e5;
+
+}
+
+#container2 {
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: #e5e5e5;
+}
+
+#max {
+    margin-left: 1rem;
+}
+
+.btn-group {
+    margin-top: 1rem;
+    display: flex;
+
+
+
+}
+
+#score {
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+@media only screen and (max-width: 650px) {
+    h1 {
+        font-size: 1rem;
+        margin-right: 1rem;
+
+    }
+
+    body {
+        margin-top: 0.5rem;
+    }
+
+    #playerScore {
+        font-size: 1rem;
+
+    }
+
+    .btn-group {
+        flex-direction: column;
+    }
+
+    button:nth-child(3) {
+        border-top-right-radius: 0px;
+    }
+
+    button:nth-child(1) {
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+
+    img {
+        height: 350px;
+    }
+
+}
